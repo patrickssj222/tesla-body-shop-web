@@ -9,19 +9,19 @@
 
 .navbar {
   background-color: black;
-  padding: sizing.rem(20px) sizing.rem(100px);
+  padding: sizing.rem(10px) sizing.rem(50px);
 }
 
 .navbarText {
   color: white;
   font-weight: bold;
-  font-size: sizing.rem(32px);
+  font-size: sizing.rem(16px);
 }
 
 .body {
   display: flex;
   flex: 1;
-  margin: sizing.rem(50px) sizing.rem(100px);
+  margin: sizing.rem(25px) sizing.rem(50px);
 }
 
 .canvasCard {
@@ -34,7 +34,7 @@
 }
 
 .canvasImage {
-  width: sizing.rem(1200px);
+  width: sizing.rem(600px);
 }
 
 .editCanvas {
@@ -46,11 +46,11 @@
 .verticalDivider {
   border-left: black solid 1px;
   height: 100%;
-  margin: 0 sizing.rem(30px);
+  margin: 0 sizing.rem(25px);
 }
 
 .canvasOptionPickerWrapper {
-  padding-left: sizing.rem(40px);
+  padding-left: sizing.rem(20px);
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -64,11 +64,12 @@
 }
 
 .colorPill {
-  height: sizing.rem(60px);
-  width: sizing.rem(60px);
+  height: sizing.rem(30px);
+  width: sizing.rem(30px);
   border-radius: 50%;
   border: 1px solid black;
-  margin: sizing.rem(40px);
+  margin: sizing.rem(20px);
+  cursor: pointer;
 }
 
 .white {

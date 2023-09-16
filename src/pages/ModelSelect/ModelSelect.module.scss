@@ -9,26 +9,26 @@
 
 .navbar {
   background-color: black;
-  padding: sizing.rem(20px) sizing.rem(100px);
+  padding: sizing.rem(10px) sizing.rem(50px);
 }
 
 .navbarText {
   color: white;
   font-weight: bold;
-  font-size: sizing.rem(32px);
+  font-size: sizing.rem(16px);
 }
 
 .body {
   display: flex;
   flex: 1;
-  margin: sizing.rem(50px) sizing.rem(100px);
+  margin: sizing.rem(25px) sizing.rem(50px);
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
 }
 
 .modelCard {
-  width: sizing.rem(400px);
+  width: sizing.rem(200px);
   justify-content: center;
   align-items: center;
   display: flex;
@@ -46,9 +46,9 @@
 }
 
 .modelText{
-  font-size: sizing.rem(30px);
+  font-size: sizing.rem(15px);
 }
 
 .modelImage {
-  width: sizing.rem(400px);
+  width: sizing.rem(200px);
 }

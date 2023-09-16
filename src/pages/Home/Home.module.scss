@@ -9,13 +9,13 @@
 
 .navbar {
     background-color: black;
-    padding: sizing.rem(20px) sizing.rem(100px);
+    padding: sizing.rem(10px) sizing.rem(50px);
 }
 
 .navbarText {
     color: white;
     font-weight: bold;
-    font-size: sizing.rem(32px);
+    font-size: sizing.rem(16px);
 }
 
 .video {
@@ -35,15 +35,15 @@
 
 .title {
     color: white;
-    font-size: sizing.rem(60px);
+    font-size: sizing.rem(50px);
 }
 
 .button {
     background-color: white;
-    padding: sizing.rem(20px) sizing.rem(40px);
-    width: sizing.rem(500px);
+    padding: sizing.rem(10px) sizing.rem(20px);
+    width: sizing.rem(300px);
     border: none;
     border-radius: sizing.rem(5px);
-    font-size: sizing.rem(24px);
+    font-size: sizing.rem(16px);
     opacity: 0.9;
 }
