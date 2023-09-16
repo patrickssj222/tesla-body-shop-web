@@ -24,15 +24,19 @@
   margin: sizing.rem(50px) sizing.rem(100px);
   justify-content: flex-start;
   align-items: flex-start;
+  flex-direction: column;
 }
 
 .modelCard {
-  width: sizing.rem(200px);
+  width: sizing.rem(400px);
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
   border-radius: sizing.rem(10px);
+  border: none;
+  background-color: white;
+  padding: 0;
 
   &:hover {
     background-color: #edede9;
@@ -41,6 +45,10 @@
   }
 }
 
+.modelText{
+  font-size: sizing.rem(30px);
+}
+
 .modelImage {
-  width: sizing.rem(200px);
+  width: sizing.rem(400px);
 }

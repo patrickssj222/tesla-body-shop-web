@@ -4,7 +4,7 @@
     flex: 1;
     flex-direction: column;
     height: 100%;
-    overflow: hidden;
+    overflow: clip;
 }
 
 .navbar {
@@ -30,7 +30,7 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    margin-bottom: sizing.rem(100px);
+    padding-bottom: sizing.rem(100px);
 }
 
 .title {

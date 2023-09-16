@@ -1,0 +1,80 @@
+@use 'theme/sizing.module';
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: black;
+  padding: sizing.rem(20px) sizing.rem(100px);
+}
+
+.navbarText {
+  color: white;
+  font-weight: bold;
+  font-size: sizing.rem(32px);
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  margin: sizing.rem(50px) sizing.rem(100px);
+}
+
+.canvasCard {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: sizing.rem(10px);
+}
+
+.canvasImage {
+  width: sizing.rem(1200px);
+}
+
+.editCanvas {
+  display: flex;
+  flex: 1;
+  width: 100%;
+}
+
+.verticalDivider {
+  border-left: black solid 1px;
+  height: 100%;
+  margin: 0 sizing.rem(30px);
+}
+
+.canvasOptionPickerWrapper {
+  padding-left: sizing.rem(40px);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.optionPicker {
+  display: flex;
+  justify-content: center;
+}
+
+.colorPill {
+  height: sizing.rem(60px);
+  width: sizing.rem(60px);
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: sizing.rem(40px);
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
