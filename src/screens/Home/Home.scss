@@ -1,0 +1,49 @@
+@use 'theme/sizing.module';
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: black;
+    padding: sizing.rem(20px) sizing.rem(100px);
+}
+
+.navbarText {
+    color: white;
+    font-weight: bold;
+    font-size: sizing.rem(32px);
+}
+
+.video {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.body {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: sizing.rem(100px);
+}
+
+.title {
+    color: white;
+    font-size: sizing.rem(60px);
+}
+
+.button {
+    background-color: white;
+    padding: sizing.rem(20px) sizing.rem(40px);
+    width: sizing.rem(500px);
+    border: none;
+    border-radius: sizing.rem(5px);
+    font-size: sizing.rem(24px);
+    opacity: 0.9;
+}
