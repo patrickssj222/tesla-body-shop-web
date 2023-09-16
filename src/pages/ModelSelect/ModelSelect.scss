@@ -1,0 +1,46 @@
+@use 'theme/sizing.module';
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: black;
+  padding: sizing.rem(20px) sizing.rem(100px);
+}
+
+.navbarText {
+  color: white;
+  font-weight: bold;
+  font-size: sizing.rem(32px);
+}
+
+.body {
+  display: flex;
+  flex: 1;
+  margin: sizing.rem(50px) sizing.rem(100px);
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.modelCard {
+  width: sizing.rem(200px);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: sizing.rem(10px);
+
+  &:hover {
+    background-color: #edede9;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+}
+
+.modelImage {
+  width: sizing.rem(200px);
+}
