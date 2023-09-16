@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/public/static/css/main.cbd993ba.css",
-    "main.js": "/public/static/js/main.4e9dbe92.js",
-    "static/js/787.a1860006.chunk.js": "/public/static/js/787.a1860006.chunk.js",
-    "static/media/stockVideo.mp4": "/public/static/media/stockVideo.4d3dddc2db13c1dcdd7f.mp4",
-    "static/media/whiteModelX.png": "/public/static/media/whiteModelX.d3795d52b069ad61f82f.png",
-    "static/media/blackModelX.png": "/public/static/media/blackModelX.355321256c7935bef5d1.png",
-    "index.html": "/public/index.html",
-    "main.cbd993ba.css.map": "/public/static/css/main.cbd993ba.css.map",
-    "main.4e9dbe92.js.map": "/public/static/js/main.4e9dbe92.js.map",
-    "787.a1860006.chunk.js.map": "/public/static/js/787.a1860006.chunk.js.map"
+    "main.css": "/tesla-body-shop-web/public/static/css/main.cbd993ba.css",
+    "main.js": "/tesla-body-shop-web/public/static/js/main.e20fc449.js",
+    "static/js/787.a1860006.chunk.js": "/tesla-body-shop-web/public/static/js/787.a1860006.chunk.js",
+    "static/media/stockVideo.mp4": "/tesla-body-shop-web/public/static/media/stockVideo.4d3dddc2db13c1dcdd7f.mp4",
+    "static/media/whiteModelX.png": "/tesla-body-shop-web/public/static/media/whiteModelX.d3795d52b069ad61f82f.png",
+    "static/media/blackModelX.png": "/tesla-body-shop-web/public/static/media/blackModelX.355321256c7935bef5d1.png",
+    "index.html": "/tesla-body-shop-web/public/index.html",
+    "main.cbd993ba.css.map": "/tesla-body-shop-web/public/static/css/main.cbd993ba.css.map",
+    "main.e20fc449.js.map": "/tesla-body-shop-web/public/static/js/main.e20fc449.js.map",
+    "787.a1860006.chunk.js.map": "/tesla-body-shop-web/public/static/js/787.a1860006.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbd993ba.css",
-    "static/js/main.4e9dbe92.js"
+    "static/js/main.e20fc449.js"
   ]
 }
